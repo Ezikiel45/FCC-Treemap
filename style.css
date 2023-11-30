@@ -1,0 +1,47 @@
+body, html {
+  margin: 0;
+  font-family: Helvetica, sans-serif;
+  color: white;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #063278;
+  min-height: 1000px;
+  min-width: 1100px;
+}
+
+#canvas {
+  height: 800px;
+  width: 1000px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 15px 15px rgba(0,0,0,0.5);
+  margin: auto;
+}
+
+#title {
+  text-transform: uppercase;
+}
+
+#description {
+  margin-top: 0;
+}
+
+#legend {
+  width: 515px;
+  margin: auto;
+}
+
+#tooltip {
+  visibility: hidden;
+  position: absolute;
+  width: auto;
+  height: auto;
+  padding: 5px;
+  margin: 10px;
+  background-color: rgb(209, 192, 221);
+  border-radius: 5px;
+}

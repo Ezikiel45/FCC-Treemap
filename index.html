@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - FCC TreeMap</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class='main'>
+  <h1 id='title' class='title'>
+    Video Game Sales
+  </h1>
+  <h4 id="description">
+    Top 100 Most Sold Video Games Grouped by Platform
+
+  </h4>
+  <svg id="canvas">
+    
+  </svg>
+  <svg id="legend">
+    <g>
+      <rect class="legend-item" width="15px" height="15px" x="0" y="30" fill="tomato" stroke="black"></rect>
+      <text x="20" y="42.5" fill="white">- Wii</text>
+    </g>
+    <g>
+      <rect class="legend-item" width="15px" height="15px" x="0" y="60" fill="lightGreen" stroke="black"></rect>
+      <text x="20" y="72.5" fill="white">- X360</text>
+    </g>
+    <g>
+      <rect class="legend-item" width="15px" height="15px" x="0" y="90" fill="lightBlue" stroke="black"></rect>
+      <text x="20" y="102.5" fill="white">- PS2</text>
+    </g>
+    <g>
+      <rect class="legend-item" width="15px" height="15px" x="0" y="120" fill="cyan" stroke="black"></rect>
+      <text x="20" y="132.5" fill="white">- PS3</text>
+    </g>
+    <g>
+      <rect class="legend-item" width="15px" height="15px" x="110" y="30" fill="blue" stroke="black"></rect>
+      <text x="130" y="42.5" fill="white">- PS4</text>
+    </g>
+    <g>
+      <rect class="legend-item" width="15px" height="15px" x="110" y="60" fill="lightGrey" stroke="black"></rect>
+      <text x="130" y="72.5" fill="white">- GB</text>
+    </g>
+    <g>
+      <rect class="legend-item" width="15px" height="15px" x="110" y="90" fill="gold" stroke="black"></rect>
+      <text x="130" y="102.5" fill="white">- GBA</text>
+    </g>
+    <g>
+      <rect class="legend-item" width="15px" height="15px" x="110" y="120" fill="yellow" stroke="black"></rect>
+      <text x="130" y="132.5" fill="white">- DS</text>
+    </g>
+    <g>
+      <rect class="legend-item" width="15px" height="15px" x="220" y="30" fill="orange" stroke="black"></rect>
+      <text x="240" y="42.5" fill="white">- PC</text>
+    </g>
+    <g>
+      <rect class="legend-item" width="15px" height="15px" x="220" y="60" fill="red" stroke="black"></rect>
+      <text x="240" y="72.5" fill="white">- N64</text>
+    </g>
+    <g>
+      <rect class="legend-item" width="15px" height="15px" x="220" y="90" fill="green" stroke="black"></rect>
+      <text x="240" y="102.5" fill="white">- XBOX</text>
+    </g>
+    <g>
+      <rect class="legend-item" width="15px" height="15px" x="220" y="120" fill="pink" stroke="black"></rect>
+      <text x="240" y="132.5" fill="white">- 3DS</text>
+    </g>
+    <g>
+      <rect class="legend-item" width="15px" height="15px" x="330" y="30" fill="grey" stroke="black"></rect>
+      <text x="350" y="42.5" fill="white">- 2600</text>
+    </g>
+    <g>
+      <rect class="legend-item" width="15px" height="15px" x="330" y="60" fill="linen" stroke="black"></rect>
+      <text x="350" y="72.5" fill="white">- PS</text>
+    </g>
+    <g>
+      <rect class="legend-item" width="15px" height="15px" x="330" y="90" fill="green" stroke="black"></rect>
+      <text x="350" y="102.5" fill="white">- NES</text>
+    </g>
+    <g>
+      <rect class="legend-item" width="15px" height="15px" x="330" y="120" fill="rgb(255, 201, 147)" stroke="black"></rect>
+      <text x="350" y="132.5" fill="white">- SNES</text>
+    </g>
+    <g>
+      <rect class="legend-item" width="15px" height="15px" x="440" y="30" fill="rgb(147, 201, 255)" stroke="black"></rect>
+      <text x="460" y="42.5" fill="white">- P5</text>
+    </g>
+    <g>
+      <rect class="legend-item" width="15px" height="15px" x="440" y="60" fill="rgb(200, 147, 200)" stroke="black"></rect>
+      <text x="460" y="72.5" fill="white">- PSP</text>
+    </g>
+    <g>
+      <rect class="legend-item" width="15px" height="15px" x="440" y="90" fill="rgb(147, 167, 225)" stroke="black"></rect>
+      <text x="460" y="102.5" fill="white">- XONE</text>
+    </g>
+  </svg>
+  <div id="tooltip"></div>
+</div>
+<!-- partial -->
+  <script src='https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/d3/7.6.1/d3.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
